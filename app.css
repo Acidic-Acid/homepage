@@ -1,0 +1,46 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: Google Sans, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: inline-block;
+    color: grey;
+
+    margin-right: 10px;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+.signin{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: blue;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    color: white;
+}
