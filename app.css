@@ -1,3 +1,4 @@
+
 body, html{
     height: 100vh;
     margin: 0;
@@ -67,10 +68,12 @@ form{
     position: absolute;
     padding: 11px 11px;
     background-position: -248px -35px;
-    margin: 30px 30px;
+    margin: 19px 22px;
+    color: #838080;
 }
 
 #search{
+    
     width: 50vw;
     max-width: 500px;
     height: 40px;
@@ -81,6 +84,12 @@ form{
     margin: 20px;
 }
 
+.searchbar{
+    height: 40px;
+    width: 50vw;
+    left: 25%;
+    top: 315px;
+}
 
 
 main img{
@@ -92,9 +101,25 @@ div{
     display: block;
 }
 
+.searchbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
 footer{
     background-color: #cecbcb;
-    padding: 5px;
+    padding: 2px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -103,7 +128,7 @@ footer{
 
 nav{
     width: 100%;
-    height: 50px;
+    height: 45px;
     display: flex;
     align-items: center;
 }
